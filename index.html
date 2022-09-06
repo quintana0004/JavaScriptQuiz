@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Quiz</title>
+    <link rel="icon" href="./images/GeometricFlowers.png">
+    <meta charset="UTF-8" name="description" content="JavaScript Quiz">
+    <link rel="stylesheet" href="/index.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="score-box">
+            <h2 id="text">Quiz Result:</h2>
+            <h1 id="score">0</h1>
+            <h1 id="inter">/</h1>
+            <h1 id="total">10</h1>
+        </div>
+        <div class="face"> <h4 style="color:#192f4f;font-weight: bold;">Question Evaluation</h4><img src="/images/Neutral.png" style="width:50px;height:50px;" id="imageId" alt="icon"></div>
+        <div class="quiz-box">
+            <div class="question-box">
+                <h5 id="question"></h5>
+            </div>
+            <div>
+                <table class="info-table">
+                    <tr class="option">
+                        <td id="op1"></td>
+                    </tr>
+                    <tr class="option">
+                        <td id="op2"></td>
+                    </tr>
+                    <tr class="option">
+                        <td id="op3"></td>
+                    </tr>
+                    <tr class="option">
+                        <td id="op4"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button id="evaluateAnws">Evaluate Question</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
